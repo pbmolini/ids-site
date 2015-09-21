@@ -32,17 +32,333 @@
 
 <body>
 
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >IDS</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#corso" onclick = $("#menu-close").click(); >Il Corso</a>
+                <ul>
+                    <li>
+                        <a href="#didattica" onclick = $("#menu-close").click(); >Didattica</a>
+                    </li>
+                    <li>
+                        <a href="#programma" onclick = $("#menu-close").click(); >Programma</a>
+                    </li>
+                    <li>
+                        <a href="#costo-condizioni" onclick = $("#menu-close").click(); >Costo e Condizioni</a>
+                    </li>
+                    <li>
+                        <a href="#dovequando" onclick = $("#menu-close").click(); >Dove e Quando</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#docente" onclick = $("#menu-close").click(); >Docente</a>
+            </li>
+            <li>
+                <a href="#contatti" onclick = $("#menu-close").click(); >Contatti</a>
+            </li>
+        </ul>
+    </nav>
+
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center-header">
             <h1>IDS</h1>
             <h3>Interior Design Specialization</h3>
             <br>
-            <h2>In arrivo a <br> <span style="color: red">Parma</span></h2>
+            <a href="#corso" class="btn btn-dark btn-lg">Scopri di più</a>
         </div>
     </header>
 
+    <!-- Il Corso -->
+    <section id="corso" class="corso bg-red">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>CORSO DI SPECIALIZZAZIONE IN INTERIOR DESIGN</h2>
+                    <p class="lead">Progettare spazi interni pubblici e privati contemporanei</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Dettagli Corso -->
+    <section class="corso bg-obiettivi">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 obiettivi">
+                    <p>
+                        Il Corso di Specializzazione in Interior Design è rivolto a giovani diplomati provenienti dall'Istituto Tecnico per Geometri "Camillo Rondani” di Parma, dall'Ente Scuola Edile di Parma, da Scuole d’Arte e a laureati di 1° e 2° livello in Architettura e Design. Il Corso è inoltre aperto ad accogliere giovani professionisti che desiderino specializzarsi nel disegno di interni.
+                        L'obiettivo del corso, è fornire le competenze e le abilità che consentano di affrontare le problematiche inerenti la Progettazione degli Interni sia di Spazi Privati ma soprattutto di Spazi Pubblici e destinati alla Comunità. Tale competenza e professionalità potrà costituire un valido ed utile strumento per un inserimento Professionale futuro nel Settore degli allestimenti interni e relativa Progettazione.
+                    </p>
+                    <p>
+                        L'Interior Designer deve sapere organizzare i vari spazi abitativi non solo residenziali ma anche e soprattutto pubblici e commerciali, i luoghi di lavoro, di ristoro e le aree espositive (Exhibit Design).
+                        Deve saper armonizzare e comporre le dimensioni e le proporzioni degli spazi, le luci, i colori e tutti i componenti che intervengono nel processo progettuale fino agli allestimenti, gli arredi e i complementi. Tale processo progettuale deve essere sempre condotto nella consapevolezza e conoscenza delle tendenze del gusto e dell'evoluzione degli stili, ma anche interpretando le esigenze e le aspettative del committente e non perdendo di vista le problematiche inerenti la progettazione.
+                    </p>
+                    <p>
+                        Per questo, la finalità del Corso è di fare acquisire allo studente la consapevolezza del rapporto che si genera tra le caratteristiche delle attività e degli spazi, da un lato, e le funzioni degli elementi tecnici dall’altro, affinché la concezione e la progettazione degli elementi tecnici fondamentali avvengano controllando il ruolo che i materiali, i prodotti, i procedimenti costruttivi svolgono nel progetto di Architettura di Interni in funzione delle esigenze abitative immediate e dell’utilizzo degli spazi nel tempo.
+                    </p>
+                    <p>
+                        Nel Corso di Specializzazione in Interior Design viene svolta un’esperienza di progettazione di un tema relativo ad un preciso contesto di Spazio Interno nella sua globalità e nella definizione delle sue singole parti costitutive, organizzate e integrate tra loro.
+                        La progettazione dovrà tenere conto della complessità e dell’articolazione che incidono sul processo di progettazione-costruzione di uno Spazio Interno: relazioni che si instaurano con l’ambiente e il contesto storico e socioculturale, esigenze di comfort e di sicurezza, risorse disponibili, strumenti normativi in vigore, contesto produttivo e aggiornamento delle tecniche e dell’innovazione tecnologica.
+                    </p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Didattica -->
+    <section id="didattica" class="didattica">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Articolazione della Didattica</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-clock-o fa-stack-1x didattica-circle"></i>
+                            </span>
+                                <h4>
+                                    <strong>50 ore totali</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-calendar fa-stack-1x didattica-circle"></i>
+                            </span>
+                                <h4>
+                                    <strong>17 settimane</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-university fa-stack-1x didattica-circle"></i>
+                            </span>
+                                <h4>
+                                    <strong>Lezioni &amp; Esercitazioni</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-graduation-cap fa-stack-1x didattica-circle"></i>
+                            </span>
+                                <h4>
+                                    <strong>Verifica finale</strong>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-lg btn-link" type="button" data-toggle="collapse" data-target="#moreInfo" aria-expanded="false" aria-controls="moreInfo">
+                      Più informazioni
+                    </button>
+                    <div class="collapse moreInfo" id="moreInfo">
+                      <div class="well">
+                        <p>
+                            Il Corso ha durata pari a circa 50 ore, distribuite nell’arco di circa 17 settimane, a partire dal mese di novembre 2015 fino alla fine di marzo 2016 con una pausa di due settimane nel periodo natalizio.
+                            <br>
+                            In ogni settimana é prevista una lezione di 3 ore. Una parte della giornata di lezione viene dedicata all’insegnamento teorico e una sessione alla parte più laboratoriale ed applicativa del progetto.
+                        </p>
+                        <p>
+                            La partecipazione alle lezioni e alle sessioni laboratoriali è obbligatoria: vengono, a tale scopo, istituite forme di verifica delle presenze e dell’avanzamento del lavoro dei singoli in rapporto alle scadenze fissate.
+                        </p>
+                        <p>
+                            Il Corso così articolato in lezioni ed esercitazioni ha un calendario “di riferimento” per le varie consegne (step progettuali) secondo delle scadenze, specificate nel calendario stesso, che corrispondono alle presentazioni di documenti, materiale ed elaborati di avanzamento del progetto.
+                            <br>
+                            Il Corso si propone di completare le lezioni e le esercitazioni in aula, ma gli elaborati grafici e tridimensionali potranno poi essere riesaminati altrove e completati.
+                        </p>
+                        <p>
+                            Al termine del Corso è previsto un colloquio con verifica finale del progetto elaborato dagli studenti e il rilascio di un Attestato di Partecipazione.
+                        </p>
+                        <p>
+                            Il corso è a pagamento ad esclusione per alcuni studenti delle classi quinte dell’istituto Rondani (selezionati dall’Istituto stesso sulla base del merito nell’anno precedente al corso) i quali possono accedere gratuitamente ad una prima serie di lezioni (primo modulo).
+                            <br>
+                            Dopo tale periodo di frequentazione gratuita al Corso, finalizzato alla introduzione didattica alla materia, gli Studenti del Rondani che nell’anno successivo, a diploma acquisito, desiderassero seguire l’intero Corso, avranno un trattamento economico preferenziale.
+                        </p>
+                      </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section id="programma" class="programma bg-programma">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Programma</h1>
+                    <ul class="list-unstyled">
+                        <li>Lezione introduttiva all’Interior Design</li>
+                        <li>
+                            Lo Spazio Interno Pubblico e Privato
+                            <br>
+                            <small>I principali spazi interni pubblici: spazi per l’intrattenimento, per l’esposizione (exhibit design), per il ristoro e l’accoglienza, per la degenza.</small>
+                        </li>
+                        <li>Habitat, atmosfera, carattere</li>
+                        <li>
+                            Le superfici ed i componenti che intervengono nella progettazione
+                            <br>
+                            <small>Componenti Fisici: materiali/luce/colori. Immateriali: trasparenze, sensazioni, differenze tra superfici riflettenti, morbide e tessili</small>
+                        </li>
+                        <li>Definizione dei luoghi, dei contesti, degli Habitat. Concetto di Comfort ambientale</li>
+                        <li>Analisi dei bisogni e delle necessità funzionali</li>
+                        <li>Ambienti interni suddivisi per Categorie Funzionali</li>
+                        <li>
+                            Elementi costruttivi determinanti nel progetto di Interior Design
+                            <br>
+                            <small>Serramenti Interni, Scale, Pavimenti, Controsoffitti, Rivestimenti</small>
+                        </li>
+                        <li>Superfici: Materiali e finiture</li>
+                        <li>Illuminotecnica</li>
+                        <li>Luce e colore</li>
+                        <li>Arredi e componenti dell’allestimento</li>
+                        <li>Convenzioni Grafiche, Modellistica e Sistemi di rappresentazione</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Costo e Condizioni -->
+    <section id="costo-condizioni" class="costo-condizioni">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Il costo dell'intero Corso di Specializzazione è di <strong>400,00€</strong></h2>
+                    <p class="lead">Lo svolgimento del Corso è subordinato al raggiungimento di un numero <strong>minimo</strong> di iscritti pari a <strong>20 studenti</strong></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Dove e Quando -->
     
+    <aside id="dovequando" class="dovequando">
+        <div class="text-vertical-center-dovequando">
+            <h1>Novembre 2015 - Marzo 2016</h1>
+            <p class="lead">Con una pausa di due settimane nel periodo natalizio</p>
+            <h2>Presso l'I.T.G. Camillo Rondani</h2>
+            <h3>Viale Maria Luigia, 9, 43125 Parma</h3>
+        </div>
+    </aside>
+    <section class="map">
+        <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/pbmolini.ngfnikl2/attribution,zoompan,share.html?access_token=pk.eyJ1IjoicGJtb2xpbmkiLCJhIjoidHhEOFZMWSJ9.JFgyJekyCGep4S_RErl0Kg'></iframe>
+    </section>
+
+    <!-- Docente -->
+    <section id="docente" class="docente">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>DOCENTE</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="docente-item">
+                                <a href="http://www.francescasantolini.com/" target="_blank">
+                                    <img class="img-docente img-responsive" src="img/docente.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="docente-item">
+                                <address>
+                                    <h2>
+                                        Francesca Santolini<br>
+                                        <small>Architetto</small>
+                                    </h2><br>
+                                    Strada delle Fonderie, 17<br>
+                                    43025 PARMA<br>
+                                    <a href="mailto:info@francescasantolini.com">info@francescasantolini.com</a><br>
+                                    <a href="http://www.francescasantolini.com">www.francescasantolini.com</a>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Contatti -->
+
+    <section id="contatti" class="contatti bg-red">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Vuoi partecipare al Corso?</h1>
+                    <p class="lead">
+                        Scrivi a <a href="mailto:info@ids-interiordesign.com">info@ids-interiordesign.com</a>
+                    </p>
+                    <p class="lead">oppure telefona al <a href="tel:+393356074020">335-6074020</a></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Patrocini -->
+    <section class="patrocini hidden-xs">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-8">
+                    <h2>Con il Patrocinio di</h2>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/Provincia_di_Parma-Stemma.svg" alt="" class="img-patrocini img-responsive">
+                            <p>Provincia di Parma</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/Comune_di_Parma-Stemma.png" alt="" class="img-patrocini img-responsive">
+                            <p>Comune di Parma</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h2>In collaborazione con</h2>
+                    <img src="img/rondani.png" alt="" class="img-patrocini img-responsive">
+                    <p>I.T.G. Camillo Rondani</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
 
     <!-- Footer -->
     <footer>
@@ -51,8 +367,13 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>IDS - Interior Design Specialization</strong>
                     </h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i>335-6074020</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:info@ids-interiordesign.com">info@ids-interiordesign.com</a>
+                        </li>
+                    </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; IDS-InteriorDesign 2015</p>
+                    <p class="text-muted">Copyright &copy; IDS - Interior Design 2015</p>
                 </div>
             </div>
         </div>
