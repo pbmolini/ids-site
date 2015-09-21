@@ -16,7 +16,8 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.text-vertical-center, .text-vertical-center-header {
+.text-vertical-center,
+.text-vertical-center-header {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -46,6 +47,20 @@ body {
     background: rgba(255,255,255,0.7)
 }
 
+.text-vertical-center-dovequando {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0,0,0,0.5);
+}
+
+.text-vertical-center-dovequando h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
 .bg-red {
     color: #fff;
     background-color: red;
@@ -57,6 +72,7 @@ body {
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
+    font-size: 2em;
 }
 
 .btn-dark:hover,
@@ -184,12 +200,6 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* About */
-
-.about {
-    padding: 50px 0;
-}
-
 /* Il Corso */
 
 .corso {
@@ -222,6 +232,10 @@ hr.small {
     color: red;
 }
 
+.didattica h2 {
+    text-transform: uppercase;
+}
+
 .didattica-circle {
     color: #fff;
 }
@@ -235,56 +249,121 @@ hr.small {
     text-align: justify;
     color: black;
 }
-/* Services */
 
-.services {
-    padding: 50px 0;
+/* Programma */
+
+.programma {
+    padding: 25px 0;
+    color: white;
+    text-align: center;
 }
 
-.service-item {
-    margin-bottom: 30px;
+.programma h1 {
+    font-size: 42px;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 25px 0;
 }
 
-/* Callout */
+.programma li {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 2em;
+}
 
-.callout {
+.bg-programma {
     display: table;
+    position: relative;
     width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    height: 100%;
+    background: url(../img/bg-programma.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-/* Portfolio */
+/* Costo e Condizioni */
 
-.portfolio {
+.costo-condizioni {
     padding: 50px 0;
 }
 
-.portfolio-item {
-    margin-bottom: 30px;
+/* Dove e Quando */
+
+.dovequando {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/dovequando.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-.img-portfolio {
+/* Docente */
+
+.docente {
+    padding: 50px 0;
+}
+
+.docente-item {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.docente-item h2 {
+    color: red;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+.img-docente {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
+.img-docente:hover {
     opacity: 0.8;
 }
 
-/* Call to Action */
+/* Contatti */
 
-.call-to-action {
+.contatti {
     padding: 50px 0;
 }
 
-.call-to-action .btn {
-    margin: 10px;
+.contatti a {
+    color: white;
+    font-weight: 400;
+}
+
+.bg-contatti {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg-contatti.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Patrocini */
+
+.patrocini {
+    padding: 50px 0;
+}
+
+.img-patrocini {
+    margin: 0px auto;
+    height: 120px;
 }
 
 /* Map */
