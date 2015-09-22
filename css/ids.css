@@ -48,7 +48,7 @@ body {
 
 .text-vertical-center-header h3 {
     margin: 0;
-    padding: 0;
+    padding: 0 0 20px 0;
     font-size: 3em;
     font-weight: 700;
     color: #D22937;
