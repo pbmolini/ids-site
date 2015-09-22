@@ -51,7 +51,7 @@ body {
     padding: 0;
     font-size: 3em;
     font-weight: 700;
-    color: red;
+    color: #D22937;
     background: rgba(255,255,255,0.7)
 }
 
@@ -71,7 +71,7 @@ body {
 
 .bg-red {
     color: #fff;
-    background-color: red;
+    background-color: #D22937;
 }
 
 /* Custom Button Styles */
@@ -242,7 +242,7 @@ hr.small {
 
 .didattica {
     padding: 50px 0;
-    color: red;
+    color: #D22937;
 }
 
 .didattica h2 {
@@ -275,7 +275,7 @@ hr.small {
     font-size: 42px;
     margin-bottom: 1.5em;
     text-transform: uppercase;
-    color: red;
+    color: #D22937;
     font-weight: 700;
     background: rgba(255, 255, 255, 0.5);
     padding: 25px 0;
@@ -332,7 +332,7 @@ hr.small {
 }
 
 .docente-item h2 {
-    color: red;
+    color: #D22937;
     font-weight: 700;
     margin-top: 2em;
 }
